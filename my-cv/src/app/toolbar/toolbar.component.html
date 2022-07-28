@@ -1,0 +1,26 @@
+<div class="toolbar-body">
+	<mat-toolbar>
+		<button mat-icon-button mat-button [matMenuTriggerFor]="menu" class="example-icon"
+			aria-label="Example icon-button with menu icon">
+			<mat-icon>menu</mat-icon>
+		</button>
+
+		<mat-menu #menu="matMenu">
+			<button mat-menu-item class="menu">телефон 096-12-55-315 </button>
+			<button mat-menu-item class="menu">мейл yaresik.oleg@ukr.net</button>
+		</mat-menu>
+		<span>Яресик Олег</span>
+		<span class="example-spacer"></span>
+
+		<button mat-icon-button mat-button [matMenuTriggerFor]="share" class="example-icon"
+			aria-label="Example icon-button with share icon">
+			<mat-icon>share</mat-icon>
+		</button>
+
+		<mat-menu #share="matMenu">
+			<button mat-menu-item class="menu">Instagram</button>
+			<button mat-menu-item class="menu">Facebook</button>
+			<button mat-menu-item class="menu">GitHub</button>
+		</mat-menu>
+	</mat-toolbar>
+</div>

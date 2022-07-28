@@ -1,0 +1,23 @@
+
+.card-box {
+	
+	width: auto;
+}
+.example-card{
+margin: 1%;
+
+}
+
+.example-card:hover {
+	transform: scale(1.03);
+	box-shadow: 4px gray;
+}
+.example-header-image {
+	background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+	background-size: cover;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+}
+

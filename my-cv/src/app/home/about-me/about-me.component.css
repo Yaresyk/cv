@@ -1,0 +1,61 @@
+.my-img {
+	margin: auto;
+	margin-top:2%;
+}
+
+.my-foto {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.my-info {
+	width: 100%;
+	background-color:RGBA(9, 0, 0, 0.11);  
+
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}
+
+.info {
+
+	margin-left: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	margin-top: 8px;
+}
+
+h3 {
+	margin-left: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3:hover {
+	transform: scale(1.03);
+}
+
+.icon {
+	width: auto;
+	height: auto;
+	font-size: 15px;
+}
+
+.aboute-me {
+	margin: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+
+
+.me-info {
+
+}
+
+.me-education {
+	
+}

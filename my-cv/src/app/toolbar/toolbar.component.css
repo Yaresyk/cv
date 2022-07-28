@@ -1,0 +1,15 @@
+mat-toolbar {
+	background-image: url("/assets/footer/footer.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: antiquewhite;
+}
+
+.example-spacer {
+	flex: 1 1 auto;
+}
+.menu{
+	background-color: gray;
+}

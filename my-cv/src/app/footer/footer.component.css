@@ -1,0 +1,44 @@
+.footer-body {
+background-image: url("/assets/footer/footer.png")  ;
+
+}
+
+.contant-info {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.contant {
+margin: 5px;
+text-align: center;
+}
+
+.img-info {
+width: 50px;
+margin: auto;
+}
+.img-info:hover{
+	transform: scale(1.1);
+	box-shadow: 4px gray;
+}
+.contant-zsu {
+line-height: 1px;
+}
+
+.contant-zsu:hover {
+	transform: scale(1.1);
+	box-shadow: 4px gray;
+}
+.contant-contacts {
+color: antiquewhite;
+
+}
+p:hover {
+	transform: scale(1.1);
+	box-shadow: 4px gray;
+}
+h2{
+	color: antiquewhite;
+margin-bottom: 5px;
+}

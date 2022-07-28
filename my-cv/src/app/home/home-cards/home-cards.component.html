@@ -1,0 +1,22 @@
+
+	<div class="card-box" fxLayout="row wrap"  >
+		<mat-card class="example-card"  fxFlex.lg="calc(30% - 10px )" fxFlex.lt-lg="calc(45% - 10px )" fxFlex.xs="calc(100% - 10px )"
+		 *ngFor="let Item of Card">
+			<mat-card-header>
+				<div mat-card-avatar class="example-header-image"></div>
+				<mat-card-title>{{Item.nameMassage}}</mat-card-title>
+				<mat-card-subtitle>Яресик Олег</mat-card-subtitle>
+			</mat-card-header>
+			<img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+				alt="Photo ">
+			<mat-card-content>
+				<p>
+					{{Item.description}}
+				</p>
+			</mat-card-content>
+			<mat-card-actions>
+				<button mat-button> ДЕТАЛЬНІШЕ </button>
+				<button mat-button>ДЕТАЛЬНІШЕ</button>
+			</mat-card-actions>
+		</mat-card>
+	</div>

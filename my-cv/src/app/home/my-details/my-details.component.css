@@ -1,0 +1,73 @@
+.body-contant {
+	max-width: 1180px;
+}
+
+.contant-box {
+	background-color: RGBA(9, 0, 0, 0.11);
+	border-radius: 10px;
+	
+		width: auto;
+	margin: 1%;
+
+}
+
+.box {
+	justify-content: space-between;
+}
+
+.education {
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	margin-left: 20px;
+	text-align: center;
+	text-shadow: 2px 2px 3px gray;
+	margin-top: 10px;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 0.9rem;
+	margin-left: 20px;
+	text-align: start;
+	text-shadow: 2px 2px 3px gray;
+}
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 2px 2px 3px gray;
+}
+
+mat-icon {
+	width: auto;
+	height: auto;
+	font-size: 18px;
+}
+
+.img-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.box-img {
+	margin: 5px;
+}
+
+img {
+	width: 100%;
+	margin: 10px;
+}
+
+.img-text {
+	font-size: 12px;
+	text-align: center;
+}
+
+img {
+	background-color: hsla(50, 33%, 25%, .3);
+	border-radius: 50%;
+}

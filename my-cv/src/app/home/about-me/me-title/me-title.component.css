@@ -1,0 +1,15 @@
+.me-name {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+.me-front {
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 20px;
+}
